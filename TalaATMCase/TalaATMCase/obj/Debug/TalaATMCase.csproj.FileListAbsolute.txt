@@ -3,3 +3,9 @@ D:\GitRepo\TalaATMCase\TalaATMCase\bin\Debug\TalaATMCase.exe
 D:\GitRepo\TalaATMCase\TalaATMCase\bin\Debug\TalaATMCase.pdb
 D:\GitRepo\TalaATMCase\TalaATMCase\obj\Debug\TalaATMCase.exe
 D:\GitRepo\TalaATMCase\TalaATMCase\obj\Debug\TalaATMCase.pdb
+D:\MashRepo\TalaATMCase\TalaATMCase\bin\Debug\TalaATMCase.exe.config
+D:\MashRepo\TalaATMCase\TalaATMCase\bin\Debug\TalaATMCase.exe
+D:\MashRepo\TalaATMCase\TalaATMCase\bin\Debug\TalaATMCase.pdb
+D:\MashRepo\TalaATMCase\TalaATMCase\obj\Debug\TalaATMCase.exe
+D:\MashRepo\TalaATMCase\TalaATMCase\obj\Debug\TalaATMCase.pdb
+D:\MashRepo\TalaATMCase\TalaATMCase\obj\Debug\TalaATMCase.csprojResolveAssemblyReference.cache

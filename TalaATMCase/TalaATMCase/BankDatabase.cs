@@ -7,8 +7,8 @@
         public BankDatabase()
         {
             accounts = new Account [2];
-            accounts[0] = new Account(12, 1234, 1000.00m, 1200.00m);
-            accounts[1] = new Account(98765, 56789, 200.00M, 200.00M);
+            accounts[0] = new Account(001, 1234, 9000.00M, 1000.00M);
+            accounts[1] = new Account(002, 9876, 200.00M, 200.00M);
         }
 
       private  Account GetAccount(int accountNumber)
