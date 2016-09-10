@@ -49,10 +49,10 @@ namespace TalaATMCase
 
         private void AuthenticateUser()
         {
-            screen.DisplayMessage("\nPlease enter your accountNumber");
+            screen.DisplayMessageLine("\nPlease enter your accountNumber"); 
             int accountNumber = keypad.GetInput();
 
-            screen.DisplayMessage("Enter your pin");
+            screen.DisplayMessageLine("Enter your pin");
             int pin = keypad.GetInput();
 
             userAuthenticated = bankDatabase.AuthenticateUser(accountNumber, pin);
