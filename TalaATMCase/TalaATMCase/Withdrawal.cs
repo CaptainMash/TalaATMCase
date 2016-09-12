@@ -73,26 +73,28 @@ namespace TalaATMCase
                 UserScreen.DisplayMessageLine("5 - $200");
                 UserScreen.DisplayMessageLine("6 - Cancel Transaction");
                 UserScreen.DisplayMessage(
-                "\n Choose a withdrawal Option (1-6):");
-            }
-            int input = keypad.GetInput();
+                    "\n Choose a withdrawal Option (1-6):");
 
-            switch (input)
-            {
-                case 1:
-                case 2:
-                case 3:
-                case 4:
-                case 5:
-                    break;
-                case Cancelled:
-                    userChoice = Cancelled;
-                    break;
-                default:
-                    UserScreen.DisplayMessageLine(
-                       "\nInvalid Selection. Try Again.");
-                    break;
-            }
+                int input = keypad.GetInput();  //Fetch input within while to change the userchoice
+
+                switch (input)
+                {
+                    case 1:
+                    case 2:
+                    case 3:
+                    case 4:
+                    case 5:
+                        userChoice = amounts[input];
+                        break;
+                    case Cancelled:
+                        userChoice = Cancelled;
+                        break;
+                    default:
+                        UserScreen.DisplayMessageLine(
+                            "\nInvalid Selection. Try Again.");
+                        break;
+                } 
+            } //End while Loop (user has made a choice)
             return userChoice;
         }
     }

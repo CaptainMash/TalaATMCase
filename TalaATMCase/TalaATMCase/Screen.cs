@@ -14,7 +14,7 @@ namespace TalaATMCase
         }
         public void DisplayDollarAmount(decimal amount)
         {
-            Console.Write("{0:C}", amount);
+            Console.Write("{0:C} ", amount);  //diplay the dollar sign before amount.
         }
     }
 }

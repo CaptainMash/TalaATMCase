@@ -13,7 +13,7 @@ namespace TalaATMCase
             userScreen = theScreen;
             database = theDatabase;
         }
-        public int AccountNumber
+        public int AccountNumber   //Create an autoproperty here (Borrow from c#6.0
         {
             get
             {
