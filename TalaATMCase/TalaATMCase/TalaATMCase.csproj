@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Account.cs" />
     <Compile Include="ATM.cs" />
+    <Compile Include="ATMConstants.cs" />
     <Compile Include="BalanceInquiry.cs" />
     <Compile Include="BankDatabase.cs" />
     <Compile Include="CashDispenser.cs" />
